@@ -1,0 +1,50 @@
+.contact {
+    color: black;
+}
+
+.user {
+    min-width: 320px;
+    width: 345px;
+    max-height: 80px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.info {
+    color: black;
+    width: 220px;
+    height: 80px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.btn_delete {
+    background: rgba(26, 31, 30, 0.2) linear-gradient(360deg, rgba(18, 19, 19, 0.5), rgba(106, 240, 233, 0.4));
+    box-shadow: 0px 4px 0px rgba(22, 22, 22, 0.87);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* color: rgb(172, 177, 177); */
+    /* color: rgba(106, 240, 255, 0.); */
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12px;
+    border: none;
+    margin-top: 30px;
+    padding: 10px;
+    width: 80%;
+    border-radius: 16px;
+    transition: all 250ms ease-in-out;
+}
+
+.btn_delete:hover,
+.btn_delete:focus {
+    box-shadow: none;
+    position: relative;
+    top: 3px;
+}
