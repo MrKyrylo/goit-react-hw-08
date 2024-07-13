@@ -1,4 +1,4 @@
-import background from '../image/phonebook-1-removebg-preview4.png';
+import background from '../image/phonebook-1.png';
 
 
 const styles = {
